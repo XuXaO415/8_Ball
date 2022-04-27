@@ -1,10 +1,11 @@
+import React from "react";
 import "./App.css";
-import EightBall from "./EightBall"
+import EightBall from "./EightBall";
 
 function App() {
   return (
     <div className="App">
-      <h1>Magic 8 Ball</h1>
+      <h1> Magic 8 Ball </h1> <EightBall />
     </div>
   );
 }
